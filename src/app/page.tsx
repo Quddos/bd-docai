@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
   return (
-   <h1 className="text-red-600">Hello</h1>
+  
+    <Button>Click Me</Button>
   );
 }
